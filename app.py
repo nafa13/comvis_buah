@@ -4,8 +4,8 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 # --- KONFIGURASI ---
-MODEL_PATH = 'model_buah_final.h5'
-LABEL_PATH = 'labels.txt'
+MODEL_PATH = 'model_buah_final2.h5'
+LABEL_PATH = 'labels2.txt'
 IMG_SIZE = (224, 224)
 THRESHOLD = 0.7  # Akurasi minimal 70% baru ditampilkan
 
